@@ -1,0 +1,28 @@
+.footer{
+    background-color: #333333;
+    display: flex;
+    color: #fff;
+    height: 200px;
+}
+.info-menu{
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    flex-grow: 2;
+}
+.info-menu p{
+    margin-left: 20px;
+}
+.footer-nav{
+    display: flex;
+    flex-grow: 1;
+}
+.footer-nav a{
+    margin: auto 20px;
+    color: #fff;
+    text-decoration: none
+;
+}
+.footer-nav a:first-child{
+    margin-left: 100px;
+}
